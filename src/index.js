@@ -1,12 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { StatefullComponent } from "./containers/StatefullComponent";
-import { HelloComponent } from "./components/HelloComponent";
+import { Home } from "./containers/Home/home";
 
-ReactDOM.render(<HelloComponent />, document.getElementById("root"));
-ReactDOM.render(<StatefullComponent />, document.getElementById("other"));
+ReactDOM.render(<Home />, document.getElementById("root"));
 
 reportWebVitals();
